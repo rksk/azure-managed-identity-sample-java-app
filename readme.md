@@ -16,5 +16,5 @@ Please refer to this blog for the introduction: [Connecting WSO2 Identity Server
 
 Steps: 
 - Clone the repository
-- Execute the command: `mvn dependency:copy-dependencies`
+- Execute the command: `mvn dependency:copy-dependencies -DincludeScope=runtime`
 - Copy all the files found in `target\dependencies` directory to `<IS_HOME>\repository\components\lib` directory.
